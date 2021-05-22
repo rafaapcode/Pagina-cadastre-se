@@ -11,12 +11,11 @@ body{
 }
 
 .signup{
-    float: right;
-    /* background-color: gray; */
+    float: right; 
     width: 500px;
-    height: 300px;
+    height: 200px;
     text-align: center;
-    line-height: 500px;
+    line-height: 300px;
     text-shadow: 5px 5px 5px black;
     color: white;
 }
@@ -24,7 +23,6 @@ body{
 .container{
     float: right;
     clear: right;
-    /* background: black; */
     width: 800px;
 }
 
