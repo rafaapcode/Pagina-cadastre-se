@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    background: url(../img/fundoDaPaginadeLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup{
+    float: right;
+    /* background-color: gray; */
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+}
+
+.container{
+    float: right;
+    clear: right;
+    /* background: black; */
+    width: 800px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px black;
+}
+
+.ml{
+     margin-left: 10px;
+    
+}
+
+.inputs{
+            background-color: rgba(6,7,39,0.6);
+            padding: 30px;
+            margin-right: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin-left: auto;
+            border-radius: 20px;
+            box-shadow: -20px -20px 70px black;
+            
+
+}
+
+input[type="submit"]{
+    margin-left: 200px;
+    transform: translate(-50% , 50%);
+    width: 250px;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 5px 5px 7px black;
+}
