@@ -61,3 +61,16 @@ input[type="submit"]{
     font-size: 20px;
     text-shadow: 5px 5px 7px black;
 }
+
+input[type="email"], input[type="password"]{
+    width: 95%;
+}
+
+h2{
+    color: white;
+    text-shadow: 5px 5px 7px black;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    font-size: 50px;
+}
