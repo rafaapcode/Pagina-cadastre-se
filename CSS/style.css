@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Varela Round', sans-serif;
     background: url(../img/fundoDaPaginadeLogin.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.signup{
-    float: right; 
+.signup {
+    float: right;
     width: 500px;
     height: 200px;
     text-align: center;
@@ -20,13 +20,13 @@ body{
     color: white;
 }
 
-.container{
+.container {
     float: right;
     clear: right;
     width: 800px;
 }
 
-input{
+input {
     padding: 10px;
     margin-bottom: 15px;
     border: none;
@@ -34,43 +34,66 @@ input{
     box-shadow: 7px 7px 15px black;
 }
 
-.ml{
-     margin-left: 10px;
-    
+.ml {
+    margin-left: 10px;
 }
 
-.inputs{
-            background-color: rgba(6,7,39,0.6);
-            padding: 30px;
-            margin-right: 20px;
-            text-align: left;
-            max-width: 400px;
-            margin-left: auto;
-            border-radius: 20px;
-            box-shadow: -20px -20px 70px black;
-            
-
+.inputs {
+    background-color: rgba(6, 7, 39, 0.6);
+    padding: 30px;
+    margin-right: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow: -20px -20px 70px black;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     margin-left: 200px;
-    transform: translate(-50% , 50%);
+    transform: translate(-50%, 50%);
     width: 250px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     font-weight: bold;
     font-size: 20px;
     text-shadow: 5px 5px 7px black;
 }
 
-input[type="email"], input[type="password"]{
+input[type="email"], input[type="password"] {
     width: 95%;
 }
 
-h2{
+h2 {
     color: white;
     text-shadow: 5px 5px 7px black;
     position: absolute;
     top: 300px;
     left: 500px;
     font-size: 50px;
+}
+
+
+/*mobile*/
+@media screen and (max-width: 700px) {
+    body {
+        height: 650px;
+    }
+    .container {
+        width: 430px;
+    }
+    .ml {
+        width: 40%;
+    }
+    h2 {
+        color: white;
+        text-shadow: 5px 5px 7px black;
+        position: absolute;
+        top: 40px;
+        left: 200px;
+        font-size: 50px;
+    }
+
+    .signup{
+       width: 450px;
+    }
 }
