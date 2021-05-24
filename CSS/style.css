@@ -57,6 +57,7 @@ input[type="submit"] {
     font-weight: bold;
     font-size: 20px;
     text-shadow: 5px 5px 7px black;
+    cursor: pointer;
 }
 
 input[type="email"], input[type="password"] {
