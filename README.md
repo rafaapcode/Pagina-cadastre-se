@@ -1,5 +1,8 @@
 # Pagina de Cadastre-se
 
+- Página feita com o intuito de praticar o HTML e CSS, e a responsividade. 
+- Copiando uma página genérica de Cadastro.
+
 ## Tecnologias usadas:
 * HTML5
 * CSS3
